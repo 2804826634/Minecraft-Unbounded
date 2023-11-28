@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](src/img/minecraft.png "Minecraft Unbounded")
 
 # 整合包介绍
@@ -86,3 +87,11 @@ B站教程视频(点击蓝字👈)
 ![](/src/img/nether2.png "亮闪闪的地狱")
 ![](/src/img/end1.png "末地")
 
+=======
+<picture>
+    <img alt="我的世界《无界》整合包" src="https://tva1.sinaimg.cn/large/eb82b80agy1hk9vohoxwkj21jo0flajz.jpg"/>
+</picture>
+
+# Minecraft-Unbounded
+我的世界《无界》整合包
+>>>>>>> 4aee9bc950ae57983c8fd9e8b8cae9ea1db09967
