@@ -7,7 +7,7 @@ chatLinks:true
 chatLinksPrompt:true
 enableVsync:true
 entityShadows:true
-forceUnicodeFont:true
+forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:8
-simulationDistance:10
+renderDistance:10
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["fabric","vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","black_icons","file/3D+Default+1.20+v1.8.1.zip","minecraft:supporteatinganimation","file/FreshAnimations_v1.8.1.zip"]
-incompatibleResourcePacks:["file/FreshAnimations_v1.8.1.zip"]
+resourcePacks:["fabric","vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","black_icons","file/[原版调整]VanillaTweaks.zip","minecraft:supporteatinganimation","continuity:glass_pane_culling_fix","continuity:default","file/[3D作物]crops-3d.zip","file/[小地图图标]Icon_Xaero\u0027s_1.11.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
 soundDevice:""
@@ -107,8 +107,8 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -119,6 +119,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
@@ -133,17 +135,35 @@ key_key.pickup.item:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
-key_key.jade.show_recipes:key.keyboard.keypad.3
-key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_playlist.key.open_menu:key.keyboard.f6
-key_playlist.key.previous:key.keyboard.0
-key_playlist.key.play_stop:key.keyboard.minus
-key_playlist.key.forward:key.keyboard.equal
-key_playlist.key.volume_up:key.keyboard.unknown
-key_playlist.key.volume_down:key.keyboard.unknown
+key_key.replaymod.playeroverview:key.keyboard.b
+key_key.replaymod.lighting:key.keyboard.z
+key_key.replaymod.quickmode:key.keyboard.q
+key_key.replaymod.settings:key.keyboard.unknown
+key_key.replaymod.marker:key.keyboard.m
+key_key.replaymod.thumbnail:key.keyboard.n
+key_key.replaymod.playpause:key.keyboard.p
+key_key.replaymod.rollclockwise:key.keyboard.l
+key_key.replaymod.rollcounterclockwise:key.keyboard.j
+key_key.replaymod.resettilt:key.keyboard.k
+key_key.replaymod.pathpreview:key.keyboard.h
+key_key.replaymod.keyframerepository:key.keyboard.x
+key_key.replaymod.clearkeyframes:key.keyboard.c
+key_key.replaymod.synctimeline:key.keyboard.v
+key_key.replaymod.positionkeyframe:key.keyboard.i
+key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
+key_key.replaymod.timekeyframe:key.keyboard.o
+key_key.replaymod.bothkeyframes:key.keyboard.unknown
+key_Camera left:key.keyboard.left
+key_Camera right:key.keyboard.right
+key_Camera closer:key.keyboard.up
+key_Camera farther:key.keyboard.down
+key_Camera up:key.keyboard.page.up
+key_Camera down:key.keyboard.page.down
+key_Swap shoulder:key.keyboard.o
+key_Toggle perspective:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
@@ -168,8 +188,8 @@ key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
+key_gui.xaero_zoom_in:key.keyboard.equal
+key_gui.xaero_zoom_out:key.keyboard.minus
 key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
@@ -187,7 +207,7 @@ key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 soundCategory_master:0.5985099337748344
 soundCategory_music:0.21830985915492956
 soundCategory_record:0.8080985915492958
