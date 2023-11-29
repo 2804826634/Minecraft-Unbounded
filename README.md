@@ -15,7 +15,7 @@
 ## 最低配置要求
 
 * 操作系统：Window 10 (64bit)
-* CPU：Intel：i7—4790K | AMD：R5 3400G
+* CPU：Intel：i7 4790K | AMD：R5 3400G
 * 内存：DDR3 1600MHZ 8GB
 * 显卡：核显即可 (需关光影)
 
