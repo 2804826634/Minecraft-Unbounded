@@ -1,6 +1,4 @@
 [perspective]
-	#Whether or not to replace the default third person perspective.
-	replace_default_perspective = true
 	#Size of the camera adjustment per step.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	camera_step_size = 0.025
@@ -23,10 +21,14 @@
 	#The angle at which the camera will be centered when looking down. Set to 0 to disable.
 	#Range: 0.0 ~ 90.0
 	center_camera_when_looking_down_angle = 15.0
-	#Whether or not to dynamically adjust camera offsets depending on space constraints.
-	dynamically_adjust_offsets = true
 	#Whether or not to temporarily center the camera when climbing.
 	center_camera_when_climbing = true
+	#Whether or not to replace the default third person perspective.
+	replace_default_perspective = true
+	#Whether or not to skip the third person front perspective.
+	skip_third_person_front_perspective = false
+	#Whether or not to dynamically adjust camera offsets depending on space constraints.
+	dynamically_adjust_offsets = true
 
 	[perspective.offset]
 		#Third person camera x-offset.
@@ -59,6 +61,27 @@
 			#If x-offset is limited this is the maximum amount.
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			max_offset_x = 3.0
+		[perspective.offset.multiplier]
+			[perspective.offset.multiplier.passenger]
+				#y-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#x-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#z-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
+			[perspective.offset.multiplier.sprint]
+				#y-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#x-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#z-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
 		[perspective.offset.limits]
 			#Whether or not z-offset adjustment has limits.
 			unlimited_offset_z = false
