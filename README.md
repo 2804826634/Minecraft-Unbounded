@@ -81,6 +81,6 @@ B站教程视频(点击蓝字👈)
 
 ![](/src/img/world1.png "前哨站")
 ![](/src/img/world2.png "废弃小屋")
-![](/src/img/nether1.png "地狱堡垒")
-![](/src/img/nether2.png "亮闪闪的地狱")
+![](/src/img/nether1.png "亮闪闪的地狱")
+![](/src/img/nether2.png "地狱堡垒")
 ![](/src/img/end1.png "末地")
