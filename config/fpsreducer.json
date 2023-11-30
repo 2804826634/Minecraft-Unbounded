@@ -71,7 +71,7 @@
   "cpuUsageThread": 0,
   "allowOneFps": false,
   "debugLog": false,
-  "waitingTime": 0,
+  "waitingTime": 600,
   "idleFps": 10,
   "guiScreenFps": 0,
   "noActFps": 0,
@@ -82,5 +82,5 @@
   "suppressSound": true,
   "suppressedVolume": 20,
   "hudEnabled": true,
-  "profile": 0
+  "profile": 2
 }
