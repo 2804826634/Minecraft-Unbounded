@@ -142,6 +142,19 @@ customization {
 }
 
 customization {
+  identifier = %id=604358%
+  orientation = bottom-left
+  x = 30
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
@@ -273,7 +286,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604358%
+  identifier = %id=376358%
   orientation = bottom-left
   x = 30
   action = movebutton

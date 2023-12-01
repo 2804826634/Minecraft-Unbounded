@@ -265,8 +265,20 @@ mode = "fancy"
 			[light_sources.settings.entities.betterarcheology]
 				bombentity = true
 
+			[light_sources.settings.entities.spawn]
+				tuna_egg = true
+				snail = true
+				tuna = true
+				hamster = true
+				ant = true
+				angler_fish = true
+				seahorse = true
+
 			[light_sources.settings.entities.bclib]
 				chair = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
@@ -345,4 +357,10 @@ mode = "fancy"
 				moray_eel = true
 				crab = true
 				fiddler_crab = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				provoker = true
+				archivist = true
+				basher = true
+				marauder = true
 
