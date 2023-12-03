@@ -280,6 +280,9 @@ mode = "fancy"
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
 
+			[light_sources.settings.entities.ecologics]
+				coconut_crab = true
+
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
