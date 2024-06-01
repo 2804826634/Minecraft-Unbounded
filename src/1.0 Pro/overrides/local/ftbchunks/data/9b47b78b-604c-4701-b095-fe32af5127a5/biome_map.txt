@@ -1,0 +1,8 @@
+#5C1 terralith:alpine_highlands
+#79D terralith:cave/andesite_caves
+#2D6 minecraft:meadow
+#588 terralith:moonlight_valley
+#5FF minecraft:river
+#4C8 terralith:shield
+#720 terralith:steppe
+#1D0 terralith:yellowstone

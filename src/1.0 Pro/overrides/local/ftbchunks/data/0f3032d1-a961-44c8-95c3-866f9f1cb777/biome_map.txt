@@ -1,0 +1,5 @@
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
+#5E2 terralith:forested_highlands
+#0E5 terralith:highlands
+#5FF minecraft:river

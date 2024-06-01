@@ -1,0 +1,295 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = true
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = bottom-left
+  x = 53
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = -23
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = top-left
+  x = 361
+  action = movebutton
+  y = 243
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  width = 118
+  action = resizebutton
+  height = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = setbuttonlabel
+  value = Unbounded 整合包版本 : 1.0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = -23
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 游戏设置
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-right
+  x = -101
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 74
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604358%
+  orientation = bottom-left
+  x = 30
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = -23
+  action = movebutton
+  y = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 218
+  action = deep_customization_element:title_screen_branding
+  actionid = 538cf683-ba2c-49bd-ab38-ab22539501b21701094994563
+  y = 258
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c60e800a-01b4-4800-9584-3a0306705fcd1701094994573
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 693e8e64-2c82-4f53-b9d4-d2fe5422d67a1701094994573
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-right
+  splash_color = #C39BD3
+  hidden = false
+  x = -110
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = b99e5fc1-99f7-4491-830d-4394a3ced3031701094994573
+  y = 72
+  splash_file_path = fancymenu_data/SmallTitle.txt
+  height = 30
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://space.bilibili.com/205390148%btnaction_splitter_fm%
+  label = 关于作者
+  loopbackgroundanimations = true
+  hoverlabel = 作者：MC星云
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 0
+  width = 74
+  action = addbutton
+  actionid = e7a0f728-58fd-4730-907c-3650879b07271701095423230
+  y = -25
+  height = 21
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 426d151d-2337-406c-b964-3d49acff9a661701098436081
+  playername = Peter_Chen0914
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = element
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/2c35081b23e3fc526b4fdf69a97ac1c066ed2240e9776955c9cbc664d8c6c226
+  crouching = false
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 26
+  width = 18
+  parrot_left_shoulder = false
+  y = -92
+  parrot = false
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Unbounded 整合包版本：1.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -131
+  width = 131
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d31bc36c-f9b2-49a3-a7c5-e10edd5df9641701098468397
+  y = -14
+  alignment = left
+  base_color = #C39BD3
+  height = 14
+}
+
+customization {
+  path = fancymenu_data/minecraft.png
+  orientation = top-centered
+  x = -200
+  width = 400
+  action = addtexture
+  actionid = a25aff71-4bf4-4d77-ac7b-67a6440012eb1701135750634
+  y = 15
+  height = 100
+}
+
+customization {
+  identifier = %id=376358%
+  orientation = bottom-left
+  x = 30
+  action = movebutton
+  y = -51
+}
+
