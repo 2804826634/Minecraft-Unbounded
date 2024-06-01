@@ -1,87 +1,73 @@
-![](src/img/minecraft.png "Minecraft Unbounded")
+![Unbounded-Title](https://cdn.modrinth.com/data/cached_images/683369b99bd9760a6faf5ceb4877a4b95b3ff2a0.png)
+# 摘要 Summary
 
-# 整合包介绍
+这是一款丰富了原版MC玩法的整合包。在这款自由度超高的整合包，用你无界的思维，创造无界的世界。
 
-在这款自由度很高的整合包，你无需跟着任务指引，发挥无界的思维，去创造无界的世界。
+This is a modpack that enriches the gameplay of the original MC. In this modpack with a high degree of freedom, use your Unbounded mind to create a Unbounded world.
 
-## 整合包说明
+# 整合包说明 Modpack Description
 
 ✨整合包由作者[MC星云](https://space.bilibili.com/205390148)制作。✨
 
-整合包 '本体' 添加了数百个模组。
+✨The modpack was created by author [MC Nebula](https://space.bilibili.com/205390148).✨
 
-你可以在此基础上👆，下载该整合包的模组包,将模组添加进本体，来扩展你的玩法。
+[基础包]添加了数百个模组，基础包的风格更贴合MC原版，你可以将它视作更好的MC原版。
 
-## 最低配置要求
+[Unbounded] The modpack have been added Hundreds of mods, and the style of the modpack is more in line with the original MC, and you can think of it as a better original MC.
 
-* 操作系统：Window 10 (64bit)
+[进阶包]添加了近两百个模组，进阶包是在基础包的基础上，不局限于原版，尝试加入更大胆的内容。
+
+[Unbounded Pro] The modpack have been added nearly 200 mods, and Unbounded Pro is based on Unbounded, not limited to the original, and tries to add more daring content.
+
+# 最低配置要求 Minimum requirements
+
+## Unbounded
+
+* 操作系统（OS）：Windows 10
 * CPU：Intel：i7 4790K | AMD：R5 3400G
-* 内存：DDR3 1600MHZ 8GB
-* 显卡：核显即可 (需关光影)
+* 内存（Memory）：DDR3 1600MHZ 8GB
+* 显卡（Graphics）：UHD 730 (need disable shader)
 
-## 教程
+## Unbounded Pro
 
-视频版：
-B站教程视频(点击蓝字👈)
+* 操作系统（OS）：Windows 10
+* CPU：Intel：i3 12100 | AMD：R5 3600X
+* 内存（Memory）：DDR4 3200MHZ 16GB
+* 显卡（Graphics）：UHD 770 (need disable shader)
 
-文字版：
-打开右上角的WIKI百科，阅读教程。
+# 整合包内容 Modpack Contents
 
-## 整合包内容
+## 建筑 Buildings
 
-### 建筑
+* 前哨站 Outpost
+* 烽火台 Beacon
+* 海底神殿柱 Pillars of the Undersea Temple
+* 末地塔楼 End Towers
 
-在各个维度添加了数十种建筑结构，如：
+## 生物 Mobs
 
-* 前哨站
-* 烽火台
-* 海底神殿柱
-* 末地塔楼
+* 哞花 Moobloom
+* 铜傀儡 Copper Golem
+* 怒目怪 Glare
+* 冰术士 Iceologer
+* 大胃怪 Mauler
+* 野火 Wildfire
+* 长颈鹿 Giraffe
+* 椰子蟹 Coconut Crab
+* 企鹅 Penguin
 
-### 生物
+## 特点 Features
 
-整合包中增加了一些陆地以及海洋中的生物，你还可以在本整合包中找到在历届生物投票中被淘汰的生物，如：
+### Unbounded
+* 传送石碑 Waystones
+* 更好的考古学 Better Archeology
+* 赏金 Bountiful
+* 村民增强 Villagers Plus
+* 真实的结局 True Ending: Ender Dragon Overhaul
 
-* 哞花
-* 铜傀儡
-* 怒目怪
-* 冰术士
-
-### 玩法
-
-* 传送
-* 盔甲革新
-* 考古学拓展
-* 赏金
-* 祛魔
-
-# 模组包说明
-
-## 需求模块
-
-模组包中有各式各样的争对玩家不同需求而创建的模块，如：
-
-* 低配机模块 [专为电脑💻配置低的玩家而生]
-* 服务端模块 [配合服务器端添加的模组]
-* 联机模块 [让你的小伙伴👱‍♂️加入你的个人存档📂]
-* 生电模块 [生电人狂喜！！]
-
-## 游戏玩法模块
-
-模组包中还有改变游戏玩法的模组，像：
-
-* 农夫乐事
-* 更好的下界|末地
-* 龙骑士
-* 凡家物语
-* 方块小镇
-
-等等..
-
-# 画廊
-
-![](/src/img/world1.png "前哨站")
-![](/src/img/world2.png "废弃小屋")
-![](/src/img/nether1.png "亮闪闪的地狱")
-![](/src/img/nether2.png "地狱堡垒")
-![](/src/img/end1.png "末地")
+### Unbounded Pro
+* 更好的下界 Better Nether
+* 更好的末地 Better End
+* 深暗之域 Deeper and Darker
+* 农夫乐事 Farmer's Delight
+* 怪物队长 Mob Captains
